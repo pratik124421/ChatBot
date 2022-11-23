@@ -1,0 +1,94 @@
+{
+    "tenantId": 1,
+    "tenantName": "platform",
+    "tenantRegion": "India",
+    "tenantUnit": 1,
+    "tenantAdminName": "Sasanka Sarkar",
+    "tenantAdminEmailId": "sasanka.sarkar@tcs.com",
+    "tenantStatus": "active",
+    "defaultLang": "en",
+    "deployment region":"",
+    "service desk number":"",
+    "sizing info":"",
+    "tenant organisation":{
+        "tenant domain":"",
+        "directory type":"",
+        "access options":"",
+        "tenant host":"",
+        "access group":""
+    },
+    "supportedLanguage": [{
+        "id": 1,
+        "locale": "en",
+        "language": "english"
+    }],
+    "dynamicLanguageIdentification": false,
+    "surveyQuestionnaire": {},
+    "welcomeDialog": "",
+    "welcomeMsg": "",
+    "tenantBot": [{
+        "botId": "1",
+        "appId": "ccf4c301-7b67-49b0-baed-a8fbd4b0701f",
+        "appSecret": "_-o7Q~lS_S2tjIUu3w2BJwbbag-L5V-8YK0GQ",
+        "openIdMetadata": 1,
+        "tenantId": 1,
+        "environmentId": 1,
+        "defaultLang": "en",
+        "langs": [{
+            "langId":1,
+            "availableLang":"en"
+        }],
+        "botName": "Mfdm-demo-bot",
+        "botType": "",
+        "published": "Y",
+        "intentRef": "platform/nlp/luis.platform-app-dev-v4.json",
+
+        "channel": [{
+            "channelId": 1,
+            "channel name:": "directline",
+            "secret": "kkwqFlNHikc.nMUP7pBo6KpgtiVgOWl2D0OS-wEn4BsP2C0BHnFGFiw"
+        },
+            {
+            
+            "channelId": 2,
+            "channel name:": "web chat",
+            "secret": "eEqHuSibYAw.3-ojjjhfaRH6jqJgpwjyWr2Q6Ab7CxntwmCBP7FYrdM"
+        }],
+        "nlpApps": [{
+            "id": 1,
+            "type": "LUIS",
+            "name": "",
+            "description": "",
+            "version": "1",
+            "appId": "06dd63b9-e2e3-403e-a9b8-5b3af1de6507",
+            "luisAPIKey": "70717aac0c2a461b920a93d5fde95fa4",
+            "url": "/luis/prediction/v3.0/apps/06dd63b9-e2e3-403e-a9b8-5b3af1de6507/slots/production/predict",
+            "host": "https://mlichatbotluisdev.cognitiveservices.azure.com/",
+            "isActive": true
+        },
+        {
+            "id" : 1,
+            "type" : "QnA",
+            "name" : "",
+            "description" : "",
+            "version" : "1",
+            "appId" : "48f6f30d-c134-4216-9e14-6f8febdf68b4",
+            "url" : "/knowledgebases/48f6f30d-c134-4216-9e14-6f8febdf68b4/generateAnswer",
+            "EndpointKey" : "353d61e6-6742-4e31-ba32-5f937d9d1ea7",
+            "host" : "https://cdd-v4-qnaservice.azurewebsites.net/qnamaker",
+            "isActive" : false
+        }],
+        "extApp": [{
+            "name": "MaxLife Symphony Summit Instance",
+            "type": "Symphony Summit",
+            "category": "ITSM",
+            "url":"https://stgci2.symphonysummit.com", 
+            "APIKey": "mMrxwIt2CVQtW+AHssLVfdKrHbTcAbc/WWmCNJaO3Ww=",
+            "AuthType": "APIKEY"
+            
+        }],
+        "surveyQuestionnaire": {},
+        "welcomeDialog": "",
+        "welcomeMsg": ""
+    }]
+}

@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "name": "bot.greeting",
+      "features": []
+    },
+    {
+      "name": "bot.testing",
+      "features": []
+    },
+    {
+      "name":"bot.session.handler",
+      "features":[]
+    }
+  ]
+}

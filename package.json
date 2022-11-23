@@ -1,0 +1,60 @@
+{
+  "name": "PRATIK_CODE_BASE_CHAT_BOT",
+  "version": "1.0.0",
+  "description": "Chatbot to handle usecases on areas like ITSM, HR, Finance ",
+  "author": "Generated using Microsoft Bot Builder Yeoman generator v4.9.0",
+  "license": "MIT",
+  "main": "./lib/main.js",
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "postinstall": "npm run build",
+    "localstart": "tsc --build && node ./lib/main.js",
+    "start": "cd lib && node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --watch ./src -e ts --exec \"npm run localstart\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com"
+  },
+  "dependencies": {
+    "@azure/identity": "^1.0.3",
+    "@azure/keyvault-secrets": "^4.0.4",
+    "@microsoft/recognizers-text-data-types-timex-expression": "1.1.4",
+    "@types/node": "^14.0.24",
+    "activedirectory": "^0.7.2",
+    "agentkeepalive": "^4.2.1",
+    "async-hooks-map": "^1.2.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.17.2",
+    "botbuilder": "~4.9.0",
+    "botbuilder-ai": "~4.9.0",
+    "botbuilder-dialogs": "~4.9.0",
+    "botbuilder-testing": "^4.10.0",
+    "botframework-schema": "^4.10.0",
+    "cors": "^2.8.4",
+    "cron": "^2.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.3",
+    "express-session": "^1.16.1",
+    "express-validator": "5.2.0",
+    "imap": "^0.8.19",
+    "log4js": "^4.5.1",
+    "mailparser": "^3.5.0",
+    "mongodb": "^3.6.0",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.8.0",
+    "replace": "~1.2.0",
+    "simple-ssh": "^1.0.0",
+    "typed-rest-client": "1.0.7",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "@types/restify": "8.4.2",
+    "nodemon": "^2.0.4",
+    "tslint": "~6.1.2",
+    "typescript": "~3.9.2"
+  }
+}
