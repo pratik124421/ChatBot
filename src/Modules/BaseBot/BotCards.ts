@@ -6,6 +6,9 @@ export enum CardTypes {
   DATE_TIME_PROMPT = "DATE_TIME_PROMPT",
   WATERFALL_DIALOG = "waterfallDialog",
   GREETING_CARD = "GREETING_CARD",
+
+  // WAPI NAMES
+  SIMPLE_TEXT_MESSAGE = "SIMPLE_TEXT_MESSAGE",
 }
 
 export class Cards {
